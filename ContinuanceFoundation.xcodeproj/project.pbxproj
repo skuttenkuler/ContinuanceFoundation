@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F218CB1258ECCCB00EF0C15 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F218CB0258ECCCB00EF0C15 /* SignInViewController.swift */; };
+		5F218CB6258ECD0600EF0C15 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F218CB5258ECD0600EF0C15 /* SignUpViewController.swift */; };
+		5F218CBB258ECD1300EF0C15 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F218CBA258ECD1300EF0C15 /* HomeScreenViewController.swift */; };
 		5F85BF6E25833E2800845375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85BF6D25833E2800845375 /* AppDelegate.swift */; };
 		5F85BF7025833E2800845375 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85BF6F25833E2800845375 /* SceneDelegate.swift */; };
 		5F85BF7225833E2800845375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85BF7125833E2800845375 /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		094738FD804718E804BCC948 /* Pods-ContinuanceFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContinuanceFoundation.debug.xcconfig"; path = "Target Support Files/Pods-ContinuanceFoundation/Pods-ContinuanceFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		5F218CB0258ECCCB00EF0C15 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5F218CB5258ECD0600EF0C15 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5F218CBA258ECD1300EF0C15 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		5F85BF6A25833E2800845375 /* ContinuanceFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContinuanceFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F85BF6D25833E2800845375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F85BF6F25833E2800845375 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +122,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5F218CBF258ECD3400EF0C15 /* View Controlllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F218CB0258ECCCB00EF0C15 /* SignInViewController.swift */,
+				5F218CB5258ECD0600EF0C15 /* SignUpViewController.swift */,
+				5F218CBA258ECD1300EF0C15 /* HomeScreenViewController.swift */,
+				5F85BF7125833E2800845375 /* ViewController.swift */,
+			);
+			path = "View Controlllers";
+			sourceTree = "<group>";
+		};
 		5F85BF6125833E2800845375 = {
 			isa = PBXGroup;
 			children = (
@@ -143,7 +160,7 @@
 			children = (
 				5F85BF6D25833E2800845375 /* AppDelegate.swift */,
 				5F85BF6F25833E2800845375 /* SceneDelegate.swift */,
-				5F85BF7125833E2800845375 /* ViewController.swift */,
+				5F218CBF258ECD3400EF0C15 /* View Controlllers */,
 				5F85BF7325833E2800845375 /* Main.storyboard */,
 				5F85BF7625833E2900845375 /* Assets.xcassets */,
 				5F85BF7825833E2900845375 /* LaunchScreen.storyboard */,
@@ -410,9 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F218CB1258ECCCB00EF0C15 /* SignInViewController.swift in Sources */,
 				5F85BF7225833E2800845375 /* ViewController.swift in Sources */,
 				5F85BF6E25833E2800845375 /* AppDelegate.swift in Sources */,
 				5F85BF7025833E2800845375 /* SceneDelegate.swift in Sources */,
+				5F218CB6258ECD0600EF0C15 /* SignUpViewController.swift in Sources */,
+				5F218CBB258ECD1300EF0C15 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
